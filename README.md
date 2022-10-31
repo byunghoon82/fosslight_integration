@@ -78,4 +78,3 @@ parameter를 입력하는 것 대신 config.properties 파일을 수정하여 �
 4. `+` 버튼 클릭 > Jar > From modules with dependencies > 폴더모양 아이콘 클릭 > Main Class 선택(`integration.main.main`) > OK
 5. IntelliJ > Build > Build Artifacts 를 클릭하면 out이라는 폴더에 JAR 파일이 생성됩니다.
 6. 생성된 JAR 파일에서 우클릭 > Run
-
