@@ -38,6 +38,7 @@ jobs:
             --auto_identification_detect_declaration \
             --auto_identification_detect_copyright \
             --auto_identification_resolve_pending_ids \
+            --get_scan_identified_components \
             --delta_only \
             --path-result '/tmp/results/wb_result.json'  &&
           echo "GITHUB_FOSSID_RESULTS<<$EOF" >> "$GITHUB_ENV" &&
