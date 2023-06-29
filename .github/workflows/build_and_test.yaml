@@ -1,7 +1,7 @@
 name: Build and Test
 on: [push, pull_request]
 env:
-  PROJECT_CODE: AgentTest1
+  PROJECT_CODE: AgentTest
   API_URL: http://fossid.osbc.kr:912/api.php
 jobs:
   run_script:
