@@ -46,4 +46,4 @@ jobs:
           echo $'\n' >> "$GITHUB_ENV" &&
           echo "$EOF" >> "$GITHUB_ENV"
       - name: Display results from env variable
-        run: echo "${{ env.GITHUB_FOSSID_RESULTS }}"
+        run: echo "${{ fromJson(env.GITHUB_FOSSID_RESULTS) }}"
