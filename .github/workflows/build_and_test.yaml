@@ -27,7 +27,7 @@ jobs:
           MY_RESULTS_FILE="${{ github.workspace }}/results/wb_result.json" &&
           docker run -v "${{ github.workspace }}/":"/tmp/analyzed_code" \
                      -v "${{ github.workspace }}/results":"/tmp/results" \
-                     quay.io/fossid/workbench-agent:0.1.0 \
+                     quay.io/fossid/workbench-agent:0.4.0 \
             --api_url http://osims.osbc.kr:8800/api.php \
             --api_user fossid \
             --api_token 7OqeHOfkzyKUdUHs9O0FsD343gtaxZOCO7XUuoVnVa \
