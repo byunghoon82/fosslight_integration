@@ -2,7 +2,7 @@ name: Build and Test
 on: [push, pull_request]
 env:
   PROJECT_CODE: AgentTest
-  API_URL: http://fossid.osbc.kr:912/api.php
+  API_URL: http://osims.osbc.kr:8800/api.php
 jobs:
   run_script:
     runs-on: ubuntu-latest
@@ -18,7 +18,7 @@ jobs:
           username: fossid+fst_790
           password: 0NGYIA3EVBJMO45OAE50THJI1NUZEK6B83HR8XQ9OU60FNGHJIOY5425C720L5QT
       - name: Pull Docker Image
-        run: docker pull quay.io/fossid/workbench-agent:0.1.0
+        run: docker pull quay.io/fossid/workbench-agent:0.4.0
       - name: List files
         run: cd ${{ github.workspace }} && ls -la
       - name: Run Docker Container
@@ -28,9 +28,9 @@ jobs:
           docker run -v "${{ github.workspace }}/":"/tmp/analyzed_code" \
                      -v "${{ github.workspace }}/results":"/tmp/results" \
                      quay.io/fossid/workbench-agent:0.1.0 \
-            --api_url http://fossid.osbc.kr:912/api.php \
+            --api_url http://osims.osbc.kr:8800/api.php \
             --api_user fossid \
-            --api_token kkJKMyQBCoThL2d5FA2JHod89wogERae0Af1OlgGNm \
+            --api_token 7OqeHOfkzyKUdUHs9O0FsD343gtaxZOCO7XUuoVnVa \
             --project_code $PROJECT_CODE \
             --scan_code $PROJECT_CODE \
             --path "/tmp/analyzed_code" \
