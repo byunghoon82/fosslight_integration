@@ -96,18 +96,18 @@ public class printInfo {
 		System.out.println();
 		System.out.println("Start Fosslight Process");
 		System.out.println();
-		System.out.println("******     ****       ****       *****       *****     *         *              *						");
-		System.out.println("*         *    *     *    *     *           *          *                        *						");
-		System.out.println("*        *      *   *      *   *           *           *         *              *						");
-		System.out.println("*        *      *   *      *    *           *          *         *              *           *			");
-		System.out.println("******   *      *   *      *     *****       *****     *         *     *****    ****     *******		");
-		System.out.println("*        *      *   *      *          *           *    *         *    *     *   *   *       *			");
-		System.out.println("*        *      *   *      *           *           *   *         *   *      *   *    *      *			");
-		System.out.println("*         *    *     *    *           *           *    *         *    *     *   *    *      *			");		
-		System.out.println("*          ****       ****       *****       *****     *******   *     ******   *    *       ***		");		
-		System.out.println("                                                                            *							");
-		System.out.println("                                                                       *    *							");
-		System.out.println("                                                                        ****							");		
+		System.out.println("******     ****      *****       *****     *         *              *						");
+		System.out.println("*         *    *    *           *          *                        *						");
+		System.out.println("*        *      *  *           *           *         *              *						");
+		System.out.println("*        *      *   *           *          *         *              *           *			");
+		System.out.println("******   *      *    *****       *****     *         *     *****    ****     *******		");
+		System.out.println("*        *      *         *           *    *         *    *     *   *   *       *			");
+		System.out.println("*        *      *          *           *   *         *   *      *   *    *      *			");
+		System.out.println("*         *    *         *           *    *         *    *     *   *    *      *			");		
+		System.out.println("*          ****      *****       *****     *******   *     ******   *    *       ***		");		
+		System.out.println("                                                                *							");
+		System.out.println("                                                           *    *							");
+		System.out.println("                                                            ****							");		
 	}
 	
 	public static void printFLTInfo() {
